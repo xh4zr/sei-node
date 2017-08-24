@@ -1,0 +1,24 @@
+{
+    "name": "sei-sdk",
+    "description": "A Caveon SEI helper library",
+    "version": "0.0.1",
+    "author": "Evan Anderson",
+    "keywords": [
+        "caveon",
+        "sei",
+        "exam",
+        "test security"
+    ],
+    "repository": {},
+    "dependencies": {
+        "request": "2.81.x",
+        "q": "2.0.x"
+    },
+    "scripts": {},
+    "files": [
+        "lib",
+        "index.js"
+    ],
+    "main": "./lib",
+    "license": "MIT"
+}
