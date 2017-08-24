@@ -2,6 +2,8 @@
 A Caveon SEI helper library
 
 ```javascript
+var sei = require('./sei-node/');
+
 var client = sei.createClientWithContext(SEI_ID, SEI_SECRET, SEI_EXAM_ID, SEI_ROLE_SECRET);
 
 client.exam.get()
