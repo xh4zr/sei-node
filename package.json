@@ -1,7 +1,7 @@
 {
   "name": "sei-sdk",
   "description": "A Caveon SEI helper library",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Evan Anderson",
   "keywords": [
     "caveon",
