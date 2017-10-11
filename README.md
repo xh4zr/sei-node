@@ -51,8 +51,10 @@ clientBasic.exam.get({ include: 'settings' }).then(function (exam) {
 ```javascript
 var examRequest = {
     method: 'GET',
-    url: '/exams/' + SEI_EXAM_ID
+    url: '/exams/' + <SEI_EXAM_ID>
 };
+// include optional headers
+
 clientToken.makeRequest(examRequest).then(function (exam) {
     console.log('made request');
     console.log(exam);
