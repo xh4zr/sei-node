@@ -3,18 +3,18 @@ A Caveon SEI helper library
 
 Most functions are async and return a promise
 
-##Install
+## Install
 ```javascript
 npm install sei-sdk
 ```
 
-##Include the library
+## Include the library
 ```javascript
 var sei = require('./sei-node/');
 ```
 
-##Create the client
-###Option 1
+## Create the client
+### Option 1
 ```javascript
 var clientToken = sei.createClientWithToken({ token: <INTEGRATION_TOKEN>, examId: <SEI_EXAM_ID> });
 clientToken.exam.get({ include: 'settings' }).then(function (exam) {
@@ -24,7 +24,7 @@ clientToken.exam.get({ include: 'settings' }).then(function (exam) {
 });
 ```
 
-###Option 2
+### Option 2
 ```javascript
 sei.createClient({ username: <SEI_ID>, password: <SEI_SECRET>, examId: <SEI_EXAM_ID> }).then(function (client) {
     return client.exam.get({ include: 'settings' });
@@ -35,7 +35,7 @@ sei.createClient({ username: <SEI_ID>, password: <SEI_SECRET>, examId: <SEI_EXAM
 });
 ```
 
-###Option 3
+### Option 3
 DON'T CHOOSE THIS OPTION
 IT WILL BE REMOVED
 ```javascript
@@ -47,7 +47,7 @@ clientBasic.exam.get({ include: 'settings' }).then(function (exam) {
 });
 ```
 
-##Make any request
+## Make any request
 ```javascript
 var examRequest = {
     method: 'GET',
