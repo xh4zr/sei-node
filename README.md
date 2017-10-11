@@ -16,7 +16,7 @@ var sei = require('./sei-node/');
 ## Create the client
 ### Option 1
 ```javascript
-var clientToken = sei.createClientWithToken({ token: <INTEGRATION_TOKEN>, examId: <SEI_EXAM_ID> });
+var clientToken = sei.createClientWithIntegration({ token: <INTEGRATION_TOKEN>, examId: <SEI_EXAM_ID> });
 clientToken.exam.get({ include: 'settings' }).then(function (exam) {
     console.log('exam', exam);
 }, function (err) {
