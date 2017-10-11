@@ -14,8 +14,9 @@
     "url": "https://github.com/xh4zr/sei-node"
   },
   "dependencies": {
-    "request": "2.81.x",
-    "q": "2.0.x"
+    "jsonwebtoken": "8.1.0",
+    "q": "2.0.x",
+    "request": "2.81.x"
   },
   "files": [
     "lib",
